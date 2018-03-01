@@ -1,7 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Creazione del main");
+        System.out.println("Welcome to this Game!");
     }
 
 }
