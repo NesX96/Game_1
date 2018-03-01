@@ -8,7 +8,7 @@ import javax.swing.JFrame;
 public class GameWindow extends Canvas{
 
 
-    public GameWindow (final float width, final float height, final String title, final Game game) {
+    public GameWindow (float width, float height, String title, Game game) {
 
         final JFrame frame = new JFrame(title);
 
