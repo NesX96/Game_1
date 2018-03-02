@@ -12,6 +12,7 @@ public class Health extends GameObject{
         this.y = y;
     }
     Color color = new Color(255, 0, 255);
+
     @Override
     public void render(final Graphics g) {
         g.setColor(color);

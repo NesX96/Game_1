@@ -10,7 +10,7 @@ public class HUD {
     public void tick() {
         HEALTH = (int) Game.clamp(HEALTH, 200, 0);
         green = Game.clamp(green, 255, 0);
-        green = HEALTH;
+        green = HEALTH + 55;
         score++;
     }
 

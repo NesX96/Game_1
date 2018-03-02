@@ -24,10 +24,6 @@ public class Game extends Canvas implements Runnable {
     public static boolean  paused = false;
     public static int diff; //0 = easy  1 = hard
 
-    public static void main(final String args[]) {
-        new Game();
-    }
-
     Game() {
         hud = new HUD();
         handler = new Handler();
