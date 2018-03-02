@@ -34,7 +34,7 @@ public class Game extends Canvas implements Runnable {
         handler2 = new Handler();
         this.addKeyListener(new KeyInput(handler));
         this.addMouseListener(new Menu(this, menuHandler, hud));
-        Window window = new Window(WIDTH, HEIGHT, "Let's Paly a Game!", this);
+        GameWindow window = new GameWindow(WIDTH, HEIGHT, "Let's Paly a Game!", this);
 
         BufferedImageLouder loader =  new BufferedImageLouder();
 //		Sprite_Sheet = loader.loadImage("/SpriteSheet.png");

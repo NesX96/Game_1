@@ -31,7 +31,6 @@ public class Health extends GameObject{
     @Override
     public void tick() {
         // TODO Auto-generated method stub
-
     }
 
 }
